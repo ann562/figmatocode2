@@ -11,7 +11,7 @@ For this assignmentt you need to take your Figma design and code it exactly as i
 
 ## Unit Content 
 
-- Instructor Video - [here]()
+- Instructor Video - [here](https://youtu.be/m7OXY7ymDPk)
 
 ## Required Videos:
 
