@@ -1,6 +1,6 @@
 # Assignment 5 - Coding My Site
 
-For this assignmentt you need to take your Figma design and code it exactly as it appears in the design.  I have provided you with all of the basic assets required from Figma in the repository.  
+For this assignmentt you need to take your Figma design and code it exactly as it appears in the design.  I have provided you with all of the basic assets required from Figma in the repository.   
 
 ## Grading 
 - You must show that you worked on this code step by step by having commits for the menu, hero section, featured section, about, buy, testimonial section, and footer.**
