@@ -16,3 +16,9 @@
     --h3-font-size: 1.5rem;
     --h4-font-size: 1.25rem;
 }
+
+body {
+    background: var(--background-color);
+    color: #ffffff;
+    font: var(--base-font-size) / 1.6 var(--font-primary);
+}
