@@ -86,3 +86,10 @@ footer {
     margin-bottom: 7rem;
     margin-top: 5rem;
 }
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
