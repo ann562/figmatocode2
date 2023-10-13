@@ -57,3 +57,18 @@ header {
     flex-basis: 33.33%;
     gap: 30px;
 }
+
+.menu-item {
+    text-align: right;
+}
+
+.hero {
+
+    display: flex;
+    justify-content: space-between;
+    background: var(--background-color) url(../images/computer.png) no-repeat;
+    height: 473px;
+    font: 2rem / 1.6 var(--font-primary);
+}
+
+
