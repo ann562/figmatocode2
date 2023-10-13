@@ -37,3 +37,10 @@ main {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    line-height: 4rem;
+    font-size: 1.25rem;
+}
