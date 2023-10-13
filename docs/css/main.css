@@ -97,5 +97,12 @@ footer {
 .text-container h2 {
     text-align: left;
     margin-bottom: 20px;
-    
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100;
 }
