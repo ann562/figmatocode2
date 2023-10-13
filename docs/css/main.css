@@ -79,3 +79,10 @@ header {
 .sub-text {
     width: 50rem;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
