@@ -63,6 +63,11 @@ header {
 }
 
 .hero {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
 
     display: flex;
     justify-content: space-between;
@@ -70,6 +75,12 @@ header {
     height: 473px;
     font: 2rem / 1.6 var(--font-primary);
 }
+
+   .text {
+     font-size: 70px;
+   }
+
+
 
 .hero h1 {
     margin-top: 5rem;
