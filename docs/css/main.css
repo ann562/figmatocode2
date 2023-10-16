@@ -364,3 +364,18 @@ a.alt-pill-link {
         flex-basis: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 0 20px;
+
+    }
+
+    .hero h1 {
+        font-size: calc(var(--h1-font-size) + 0.4);
+    }
+
+    .sub-text {
+        width: 100%;
+    }
+}
