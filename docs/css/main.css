@@ -146,12 +146,22 @@ footer {
 }
 
 .hero-section.task {
-    background-image: url(../images/task.png);
-    background-position: left;
-    justify-content: flex-end;
-    text-align: right;
-    height: 240px;
     
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    
+}
+
+.task {
+
+    display: flex;
+    width: 463px;
+    height: 463px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .hero-section.clip {
