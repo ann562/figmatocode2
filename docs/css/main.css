@@ -1,10 +1,12 @@
 :root{
-    --background-color: #2d2879;
+    --background-color: #000235; ;
     --base-link-color: #ffffff;
     --primary-color: #8d8dd8;
     --secondary-color: #000000;
     --accent-color: #555;
-    --testimonial-color: #6358bd;
+    --testimonial-color: rgba(255, 255, 255, 0.08);
+
+
    
 
     --font-primary: 'Roboto', sans-serif;
@@ -24,7 +26,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    
     font-family: var(--font-secondary);
     text-transform: capitalize;
 }
@@ -69,13 +71,16 @@ header {
     column-gap: 5px;
    }
 
-    display: flex;
-    justify-content: space-between;
-    background: var(--background-color) url(../images/computer.png) no-repeat;
-    height: 473px;
-    font: 2rem / 1.6 var(--font-primary);
-}
+.computer {
 
+    float: right;
+}
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+   
    .text {
      font-size: 70px;
    }
@@ -83,6 +88,7 @@ header {
 
 
 .hero h1 {
+    text-align: left;
     margin-top: 5rem;
     width: 35rem;
 }
@@ -242,18 +248,24 @@ footer {
 }
 
 .circular-image {
+
+    background: url(../images/oliviia.png), lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
     border-radius: 50%;
     width: 119px;
     height: 119px;
 }
 
 .testimonial-header {
+   
     text-align:center;
     margin-bottom: 5rem;
 
 }
 
 .testimonial-header h2 {
+
+   
     margin-bottom: 10px;
     margin-top: 4rem;
 
@@ -266,6 +278,7 @@ footer {
 }
 
 .testimonial-cards {
+   
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -274,6 +287,8 @@ footer {
 }
 
 .testimonial {
+    
+    font-family: var(--font-secondary);
     border: 1px solid grey;
     border-radius: 5px;
     padding: 20px;
