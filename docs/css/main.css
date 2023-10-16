@@ -161,3 +161,27 @@ footer {
     transition: var(--background-color .03s ease);
 }
 
+.pill-link-black-button:hover {
+    background-color:var(--accent-color);
+}
+
+.hero_center.ready {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero_center .hero-content {
+    text-align: center;
+
+}
+
+.hero_center  .hero-content h1, .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero_center ,.hero-content p, .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
