@@ -185,3 +185,23 @@ footer {
     font-size: 1.25rem;
     margin-bottom: 20px;
 }
+
+.hero_center .hero-content a.pill-link-black-button, .hero-content a {
+    display: inline-block;
+    padding: 18 px 38px;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    color:#fff;
+    text-decoration: none;
+    transition: backgroun- color 0.3s ease;
+}
+
+.hero_center .hero-content a.pill-link-black-button:hover,
+.hero-content a:hover {
+    background-color: var(--accent-color);
+
+}
+
+.column {
+    
+}
