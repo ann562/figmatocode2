@@ -151,3 +151,13 @@ footer {
     align-items: center;
 }
 
+.pill-link-black-button a {
+    display: inline-block;
+    padding: 50px 25px;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    transition: var(--background-color .03s ease);
+}
+
