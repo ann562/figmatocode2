@@ -131,13 +131,23 @@ footer {
 }
 
 .hero-section.clip {
-    background-image: url(../images/clip.png);
+    background-image: url(../images/clip.png), lightgray 50% / cover no-repeat;
     background-position: right;
     justify-content: flex-start;
     text-align: left;
-    height: 329px;
+    height: 385px;
 }
 .hero-content {
     width: 50rem;
+}
+
+.ready {
+    display: flex;
+    height: 25rem;
+    background-color: var(--primary-color);
+    margin-top: 18rem;
+    margin-bottom: 10rem;
+    border-radius: 50px;
+    align-items: center;
 }
 
