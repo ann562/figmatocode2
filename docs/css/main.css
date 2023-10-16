@@ -123,9 +123,21 @@ footer {
 }
 
 .hero-section.task {
-    background-image: url(../images/task/png);
+    background-image: url(../images/task.png);
     background-position: left;
     justify-content: flex-end;
     text-align: right;
-    height: 460px;
+    height: 485px;
 }
+
+.hero-section.clip {
+    background-image: url(../images/clip.png);
+    background-position: right;
+    justify-content: flex-start;
+    text-align: left;
+    height: 329px;
+}
+.hero-content {
+    width: 50rem;
+}
+
