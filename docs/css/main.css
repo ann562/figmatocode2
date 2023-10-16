@@ -49,7 +49,7 @@ header {
 
 .logo {
     text-align: left;
-   
+    margin-right: auto;
    
 
 }
@@ -66,6 +66,7 @@ header {
 }
 
 .hero {
+    
     display: grid;
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
@@ -74,7 +75,11 @@ header {
 
 .computer {
 
-    float: right;
+    
+    width: 511px;
+   height: 544px;
+   flex-shrink: 0;
+
 }
    
    img {
@@ -145,7 +150,8 @@ footer {
     background-position: left;
     justify-content: flex-end;
     text-align: right;
-    height: 485px;
+    height: 240px;
+    
 }
 
 .hero-section.clip {
