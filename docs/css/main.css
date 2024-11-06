@@ -260,3 +260,44 @@ h1.logo span {
 }
 
 
+/* Call to Action Box Styles */
+.cta-box {
+    position: relative; /* Set position relative for absolute child positioning */
+    margin: 40px 5%; /* Margin around the box */
+}
+
+.cta-background {
+    background-image: url('images/Rectangle 23.png');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    padding: 40px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.cta-background h3 {
+    font-size: 2.5rem; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #ffffff; /* Text color for the heading */
+}
+
+.cta-background p {
+    font-size: 1.2rem; /* Font size for the description */
+    margin-bottom: 30px; /* Space below the description */
+    color: #ffffff; /* Text color for the description */
+}
+
+.cta-background .btn.primary {
+    padding: 15px 30px; /* Button padding */
+    background-color: #8675a9; /* Background color for the button */
+    color: #ffffff; /* Text color for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 1.1rem; /* Button text size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.cta-background .btn.primary:hover {
+    background-color: #5a5a8a; /* Change button color on hover */
+}
