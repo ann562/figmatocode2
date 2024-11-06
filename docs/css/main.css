@@ -394,3 +394,41 @@ h1.logo span {
     width: 100%; /* Full width for gradient line */
     margin-top: 20px; /* Space above the line */
 }
+/* Image Container Styles */
+.image-container {
+    position: relative; /* Set position relative for absolute children */
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Set max width for the image container */
+    margin: 20px auto; /* Center the container */
+}
+
+/* Background Image Styles */
+.background-image {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Gradient Container Styles */
+.gradient-container {
+    position: relative; /* Position relative for absolute children */
+    min-height: 100vh; /* Minimum height of the container */
+    background: linear-gradient(135deg, rgba(77, 67, 158, 0.5), rgba(151, 213, 213, 0.5)); /* Gradient overlay with 50% opacity */
+}
+
+/* Existing Styles (Make sure these are included as well) */
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 5%;
+}
+
+/* Footer Styles */
+.footer {
+    background: #202040; /* Same background as other sections */
+    color: #ffffff; /* White text color */
+    padding: 40px 5%; /* Padding for the footer */
+    z-index: 1; /* Ensure footer is above background elements */
+}
