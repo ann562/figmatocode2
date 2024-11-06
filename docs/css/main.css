@@ -259,21 +259,33 @@ h1.logo span {
     font-size: 1.1rem; /* Font size for the name */
 }
 
-
 /* Call to Action Box Styles */
 .cta-box {
-    position: relative; /* Set position relative for absolute child positioning */
+    position: relative; /* Set position relative for child positioning */
     margin: 40px 5%; /* Margin around the box */
 }
 
 .cta-background {
-    background-image: url('images/Rectangle 23.png');
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the image */
+    position: relative; /* Set position relative for content positioning */
     padding: 40px; /* Padding inside the box */
     border-radius: 10px; /* Rounded corners */
     text-align: center; /* Center align text */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.background-image {
+    position: absolute; /* Position the image absolutely */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Ensure image covers the box */
+    z-index: 1; /* Place the image below the content */
+}
+
+.content {
+    position: relative; /* Position content on top of the image */
+    z-index: 2; /* Place content above the image */
 }
 
 .cta-background h3 {
@@ -290,7 +302,7 @@ h1.logo span {
 
 .cta-background .btn.primary {
     padding: 15px 30px; /* Button padding */
-    background-color: #8675a9; /* Background color for the button */
+    background-color: #000000; /* Background color for the button */
     color: #ffffff; /* Text color for the button */
     border-radius: 5px; /* Rounded corners for the button */
     text-decoration: none; /* Remove underline from link */
