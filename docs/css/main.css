@@ -394,3 +394,27 @@ h1.logo span {
     width: 100%; /* Full width for gradient line */
     margin-top: 20px; /* Space above the line */
 }
+
+/* Gradient Background for the entire page */
+body {
+    background: linear-gradient(135deg, rgba(77, 67, 158, 1) 0%, rgba(151, 213, 213, 1) 100%);
+    background-size: cover; /* Cover the entire viewport */
+    background-attachment: fixed; /* Keep background fixed on scroll */
+}
+
+/* Optional: If you want to use the circles as an overlay */
+.background-circles {
+    position: absolute; /* Position the circles absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    z-index: -1; /* Place it behind other content */
+}
+
+.background-circles img {
+    width: 100%; /* Full width for the circles */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any inline spacing */
+}
+
