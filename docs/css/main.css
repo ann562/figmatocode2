@@ -50,3 +50,40 @@ h1.logo span {
     color: #8675a9;
 }
 
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 5%;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    padding: 12px 24px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.primary {
+    background-color: #8675a9;
+    color: #fff;
+}
+
+.secondary {
+    background-color: #97D5D5;
+    color: #fff;
+}
