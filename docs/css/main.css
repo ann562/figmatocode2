@@ -313,3 +313,84 @@ h1.logo span {
 .cta-background .btn.primary:hover {
     background-color: #5a5a8a; /* Change button color on hover */
 }
+/* Footer Styles */
+.footer {
+    background: #202040; /* Same background as other sections */
+    color: #ffffff; /* White text color */
+    font-family: 'Outfit', sans-serif; /* Font style */
+    padding: 40px 5%; /* Padding for the footer */
+}
+
+.footer-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-links {
+    display: flex; /* Flexbox for links */
+    gap: 40px; /* Space between link columns */
+}
+
+.column {
+    flex: 1; /* Allow columns to grow */
+    margin-bottom: 20px; /* Space below each column */
+}
+
+.column h4 {
+    font-size: 1.2rem; /* Font size for column headers */
+    margin-bottom: 15px; /* Space below header */
+}
+
+.column a {
+    color: #c0c0c0; /* Color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 0.9rem; /* Font size for links */
+    display: block; /* Block display for links */
+    margin-bottom: 10px; /* Space between links */
+}
+
+.column a:hover {
+    color: #8675a9; /* Change color on hover */
+}
+
+.newsletter {
+    flex: 1; /* Allow the newsletter section to grow */
+    margin-left: 40px; /* Space from the links */
+}
+
+.newsletter h4 {
+    font-size: 1.2rem; /* Font size for newsletter header */
+    margin-bottom: 15px; /* Space below header */
+}
+
+.newsletter form {
+    display: flex; /* Flexbox for form */
+}
+
+.newsletter input[type="email"] {
+    padding: 10px; /* Padding for input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.newsletter button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #8675a9; /* Background color for button */
+    color: #ffffff; /* Text color for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.newsletter button:hover {
+    background-color: #5a5a8a; /* Change button color on hover */
+}
+
+/* Gradient Line Styles */
+.footer-gradient {
+    width: 100%; /* Full width for gradient line */
+    margin-top: 20px; /* Space above the line */
+}
