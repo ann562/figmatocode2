@@ -1,0 +1,52 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body and Fonts */
+body {
+    font-family: 'Outfit', sans-serif; /* Replace with Figma's font */
+    color: #fff;
+    background: linear-gradient(135deg, #202040, #181830);
+}
+
+/* Logo Styles */
+h1.logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+h1.logo span {
+    color: #8675a9;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links .highlight {
+    color: #8675a9;
+}
+
