@@ -116,4 +116,51 @@ h1.logo span {
     height: 50px; /* Logo height */
 }
 
+/* Analytics Section Styles */
+.analytics {
+    display: flex; /* Use flexbox to align text and image side by side */
+    align-items: center; /* Center align items vertically */
+    padding: 60px 5%; /* Add padding to the top and bottom */
+    background: linear-gradient(135deg, #202040, #181830); /* Background color for the section */
+}
 
+.analytics-content {
+    flex: 1; /* Allows text content to take up available space */
+    text-align: left; /* Align text to the left */
+}
+
+.analytics h3 {
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #ffffff; /* Text color for the heading */
+}
+
+.analytics p {
+    font-size: 1rem; /* Font size for the paragraph */
+    color: #ffffff; /* Text color for the paragraph */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.analytics .btn.secondary {
+    padding: 12px 24px; /* Button padding */
+    background-color: #8675a9;
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Button rounded corners */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 1rem; /* Button text size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.analytics .btn.secondary:hover {
+    background-color: #444; /* Change button color on hover */
+}
+
+.analytics-image {
+    flex: 1; /* Allows the image to take up available space */
+    text-align: center; /* Center the image */
+}
+
+.analytics-image img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
