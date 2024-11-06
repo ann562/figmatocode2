@@ -213,3 +213,50 @@ h1.logo span {
     max-width: 100%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
 }
+/* Testimonials Section Styles */
+.testimonials {
+    text-align: center; /* Center align text */
+    padding: 60px 5%; /* Add padding to the top and bottom */
+    background: #202040; /* Background color for the section */
+}
+
+.testimonials h3 {
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #ffffff; /* Text color for the heading */
+}
+
+.testimonials p {
+    font-size: 1rem; /* Font size for the description */
+    color: #c0c0c0; /* Text color for the description */
+    margin-bottom: 40px; /* Space below the description */
+}
+
+.testimonial-cards {
+    display: flex; /* Use flexbox for card layout */
+    justify-content: center; /* Center align cards */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background: #333367; /* Background color for the card */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 8px; /* Rounded corners for the card */
+    width: 250px; /* Fixed width for cards */
+    color: #ffffff; /* Text color for card content */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.card img {
+    width: 60px; /* Fixed width for user profile image */
+    border-radius: 50%; /* Make image circular */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+.card .name {
+    font-weight: bold; /* Bold font for the name */
+    margin-top: 10px; /* Space above the name */
+    font-size: 1.1rem; /* Font size for the name */
+}
+
+
