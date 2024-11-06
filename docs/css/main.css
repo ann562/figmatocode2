@@ -87,3 +87,33 @@ h1.logo span {
     background-color: #97D5D5;
     color: #fff;
 }
+/* Featured Section Styles */
+.featured {
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.featured p {
+    font-size: 1.2rem;
+    font-style: 'Outfit';
+    color: #ffffff;
+}
+
+.logo-container {
+    margin: 20px 0; /* Space above and below the logo container */
+    padding: 20px;   /* Padding inside the container */
+    background-color: #444; /* Grey background for the rectangle */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+
+.logos {
+    display: flex; /* Ensures logos are in a row */
+    justify-content: center; /* Center align logos */
+}
+
+.logos img {
+    margin: 0 20px; /* Space between logos */
+    height: 50px; /* Logo height */
+}
+
+
