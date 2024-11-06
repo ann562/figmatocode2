@@ -102,7 +102,7 @@ h1.logo span {
 .logo-container {
     margin: 20px 0; /* Space above and below the logo container */
     padding: 20px;   /* Padding inside the container */
-    background-color: #444; /* Grey background for the rectangle */
+    background-color: #4d439e; /* Grey background for the rectangle */
     border-radius: 8px; /* Optional: rounds the corners */
 }
 
